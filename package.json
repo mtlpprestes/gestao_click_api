@@ -1,0 +1,29 @@
+{
+  "name": "vencimento-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "5.0.0",
+    "@prisma/client": "^4.11.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "~1.4.4",
+    "cron": "^2.3.0",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "express": "~4.16.1",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "~1.9.1",
+    "nodemailer": "^6.9.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-api-js": "^0.8.2",
+    "whatsapp-business-api": "^0.0.4"
+  },
+  "devDependencies": {
+    "prisma": "^4.11.0"
+  }
+}
